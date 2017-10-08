@@ -4,9 +4,9 @@ public class run
 	public static void test(String str)
 	{
 		if (XCN_AddressValidator.ValidateAddress(str))
-			System.out.println(str + "\t:\tYES!");
+			System.out.println("\"" + str + "\"\t:\tYES!");
 		else
-			System.out.println(str + "\t:\tNO!");
+			System.out.println("\"" + str + "\"\t:\tNO!");
 	}
 
 	public static void main(String[] args)
